@@ -1,8 +1,24 @@
 /*
-1.	What is variables in Java?
-2.	What is an object in Java?
+1. What is variables in Java?
+   Variables are containers for storing data values. We can say that is a name of memory location.
+   There are different types of variables ,for example: int, double, char, String etc.
+   Variables are fields like : size, color, weight...
+2. What is an object in Java?
+   In Java an object is an instance(sample) of a class. To create an object in java you need to have a class that defines
+   its own set of variables and methods .
 3. Difference between constructors and methods in Java.
+   Constructors are used to create and initialize objects, while methods are used to define behavior that can be called
+   on an object or class.
+   Constructors do not have a return type and have the same name as the class, while methods have a return type and can
+   have any method name same as class name or different.
 4. What is Method Overriding?
+   When we need to specify method, we change the method body, this is called overriding.We cannot touch “Method Signature”
+   in overriding.Override cannot be final,static,private,method.For override must be parent child relationship(IS-A,HAS-A)
 5. What is difference between static method and instance method?
+   In summary, the main difference between static methods and instance methods in Java is that static methods belong to
+   the class itself, while instance methods belong to individual instances of the class. Static methods are useful for
+   performing operations that do not depend on the state of any particular instance, while instance methods are useful
+   for performing operations that depend on the state of a particular instance.
+
 
 */
